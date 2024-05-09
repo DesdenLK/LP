@@ -1,0 +1,15 @@
+NUM=1
+LPAR=2
+RPAR=3
+SLASH=4
+ARROW=5
+DOTS=6
+TYPE=7
+OPERADOR=8
+ID=9
+WS=10
+'('=2
+')'=3
+'\\'=4
+'->'=5
+'::'=6
