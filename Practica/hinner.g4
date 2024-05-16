@@ -5,7 +5,7 @@ statement : expr                         #exprStmt
           | expr DOTS defType            #TypeDefStmt
      ;
 
-defType : TYPE                                #singleType
+defType : ID                                #singleType
      |    <assoc=right> defType ARROW defType #TypeAssocRight
      |    LPAR defType RPAR                   #ParType
      ;   
@@ -25,7 +25,6 @@ RPAR : ')';
 SLASH : '\\';
 ARROW : '->';
 DOTS  : '::';
-TYPE  : ('a'..'z'|'A'..'Z');
 OPERADOR : ('(+)'| '-');
-ID : ('a'..'z'|'A'..'Z') ('a'..'z'|'A'..'Z'|'_'|'0'..'9')* ;
+ID : ('a'..'z'|'A'..'Z')+;
 WS  : [ \t\n\r]+ -> skip ;

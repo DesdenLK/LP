@@ -10,22 +10,22 @@ else:
 
 def serializedATN():
     return [
-        4,1,10,61,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,1,0,1,0,1,0,1,
-        1,1,1,1,1,1,1,1,1,3,1,19,8,1,1,2,1,2,1,2,1,2,1,2,1,2,3,2,27,8,2,
-        1,2,1,2,1,2,5,2,32,8,2,10,2,12,2,35,9,2,1,3,1,3,1,3,1,3,1,3,3,3,
-        42,8,3,1,4,1,4,1,4,1,4,1,4,1,4,1,4,1,4,3,4,52,8,4,1,4,1,4,5,4,56,
-        8,4,10,4,12,4,59,9,4,1,4,0,2,4,8,5,0,2,4,6,8,0,0,63,0,10,1,0,0,0,
-        2,18,1,0,0,0,4,26,1,0,0,0,6,41,1,0,0,0,8,51,1,0,0,0,10,11,3,2,1,
-        0,11,12,5,0,0,1,12,1,1,0,0,0,13,19,3,8,4,0,14,15,3,8,4,0,15,16,5,
-        6,0,0,16,17,3,4,2,0,17,19,1,0,0,0,18,13,1,0,0,0,18,14,1,0,0,0,19,
-        3,1,0,0,0,20,21,6,2,-1,0,21,27,5,7,0,0,22,23,5,2,0,0,23,24,3,4,2,
-        0,24,25,5,3,0,0,25,27,1,0,0,0,26,20,1,0,0,0,26,22,1,0,0,0,27,33,
-        1,0,0,0,28,29,10,2,0,0,29,30,5,5,0,0,30,32,3,4,2,2,31,28,1,0,0,0,
-        32,35,1,0,0,0,33,31,1,0,0,0,33,34,1,0,0,0,34,5,1,0,0,0,35,33,1,0,
-        0,0,36,42,5,8,0,0,37,38,5,4,0,0,38,39,5,9,0,0,39,40,5,5,0,0,40,42,
+        4,1,9,61,2,0,7,0,2,1,7,1,2,2,7,2,2,3,7,3,2,4,7,4,1,0,1,0,1,0,1,1,
+        1,1,1,1,1,1,1,1,3,1,19,8,1,1,2,1,2,1,2,1,2,1,2,1,2,3,2,27,8,2,1,
+        2,1,2,1,2,5,2,32,8,2,10,2,12,2,35,9,2,1,3,1,3,1,3,1,3,1,3,3,3,42,
+        8,3,1,4,1,4,1,4,1,4,1,4,1,4,1,4,1,4,3,4,52,8,4,1,4,1,4,5,4,56,8,
+        4,10,4,12,4,59,9,4,1,4,0,2,4,8,5,0,2,4,6,8,0,0,63,0,10,1,0,0,0,2,
+        18,1,0,0,0,4,26,1,0,0,0,6,41,1,0,0,0,8,51,1,0,0,0,10,11,3,2,1,0,
+        11,12,5,0,0,1,12,1,1,0,0,0,13,19,3,8,4,0,14,15,3,8,4,0,15,16,5,6,
+        0,0,16,17,3,4,2,0,17,19,1,0,0,0,18,13,1,0,0,0,18,14,1,0,0,0,19,3,
+        1,0,0,0,20,21,6,2,-1,0,21,27,5,8,0,0,22,23,5,2,0,0,23,24,3,4,2,0,
+        24,25,5,3,0,0,25,27,1,0,0,0,26,20,1,0,0,0,26,22,1,0,0,0,27,33,1,
+        0,0,0,28,29,10,2,0,0,29,30,5,5,0,0,30,32,3,4,2,2,31,28,1,0,0,0,32,
+        35,1,0,0,0,33,31,1,0,0,0,33,34,1,0,0,0,34,5,1,0,0,0,35,33,1,0,0,
+        0,36,42,5,7,0,0,37,38,5,4,0,0,38,39,5,8,0,0,39,40,5,5,0,0,40,42,
         3,8,4,0,41,36,1,0,0,0,41,37,1,0,0,0,42,7,1,0,0,0,43,44,6,4,-1,0,
         44,45,5,2,0,0,45,46,3,8,4,0,46,47,5,3,0,0,47,52,1,0,0,0,48,52,3,
-        6,3,0,49,52,5,1,0,0,50,52,5,9,0,0,51,43,1,0,0,0,51,48,1,0,0,0,51,
+        6,3,0,49,52,5,1,0,0,50,52,5,8,0,0,51,43,1,0,0,0,51,48,1,0,0,0,51,
         49,1,0,0,0,51,50,1,0,0,0,52,57,1,0,0,0,53,54,10,4,0,0,54,56,3,8,
         4,5,55,53,1,0,0,0,56,59,1,0,0,0,57,55,1,0,0,0,57,58,1,0,0,0,58,9,
         1,0,0,0,59,57,1,0,0,0,6,18,26,33,41,51,57
@@ -45,7 +45,7 @@ class hinnerParser ( Parser ):
                      "'::'" ]
 
     symbolicNames = [ "<INVALID>", "NUM", "LPAR", "RPAR", "SLASH", "ARROW", 
-                      "DOTS", "TYPE", "OPERADOR", "ID", "WS" ]
+                      "DOTS", "OPERADOR", "ID", "WS" ]
 
     RULE_root = 0
     RULE_statement = 1
@@ -62,10 +62,9 @@ class hinnerParser ( Parser ):
     SLASH=4
     ARROW=5
     DOTS=6
-    TYPE=7
-    OPERADOR=8
-    ID=9
-    WS=10
+    OPERADOR=7
+    ID=8
+    WS=9
 
     def __init__(self, input:TokenStream, output:TextIO = sys.stdout):
         super().__init__(input, output)
@@ -236,8 +235,8 @@ class hinnerParser ( Parser ):
             super().__init__(parser)
             self.copyFrom(ctx)
 
-        def TYPE(self):
-            return self.getToken(hinnerParser.TYPE, 0)
+        def ID(self):
+            return self.getToken(hinnerParser.ID, 0)
 
         def accept(self, visitor:ParseTreeVisitor):
             if hasattr( visitor, "visitSingleType" ):
@@ -302,13 +301,13 @@ class hinnerParser ( Parser ):
             self.state = 26
             self._errHandler.sync(self)
             token = self._input.LA(1)
-            if token in [7]:
+            if token in [8]:
                 localctx = hinnerParser.SingleTypeContext(self, localctx)
                 self._ctx = localctx
                 _prevctx = localctx
 
                 self.state = 21
-                self.match(hinnerParser.TYPE)
+                self.match(hinnerParser.ID)
                 pass
             elif token in [2]:
                 localctx = hinnerParser.ParTypeContext(self, localctx)
@@ -421,7 +420,7 @@ class hinnerParser ( Parser ):
             self.state = 41
             self._errHandler.sync(self)
             token = self._input.LA(1)
-            if token in [8]:
+            if token in [7]:
                 localctx = hinnerParser.OperadorINFIXContext(self, localctx)
                 self.enterOuterAlt(localctx, 1)
                 self.state = 36
@@ -582,7 +581,7 @@ class hinnerParser ( Parser ):
                 self.state = 46
                 self.match(hinnerParser.RPAR)
                 pass
-            elif token in [4, 8]:
+            elif token in [4, 7]:
                 localctx = hinnerParser.AbstraccioExprContext(self, localctx)
                 self._ctx = localctx
                 _prevctx = localctx
@@ -596,7 +595,7 @@ class hinnerParser ( Parser ):
                 self.state = 49
                 self.match(hinnerParser.NUM)
                 pass
-            elif token in [9]:
+            elif token in [8]:
                 localctx = hinnerParser.IdentContext(self, localctx)
                 self._ctx = localctx
                 _prevctx = localctx
